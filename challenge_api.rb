@@ -1,6 +1,6 @@
 require_relative 'config/application'
 
-class Counter < Sinatra::Base
+class ChallengeApi < Sinatra::Base
   SECRET = ENV['SECRET'] || "secret"
 
   before do
@@ -24,34 +24,42 @@ class Counter < Sinatra::Base
     json({token: set_token})
   end
 
-  get "/v1/current" do
-    protect!
-    json(to_json_api(user))
+  
+  get 'reports' do
+    return json([{
+      name: 'Kamino Human Resources, LTD',
+      location: 'Kamino'
+      currency: 'Republic Credits',
+      symbol: 'RCR',
+      report_id: 7426,
+      format: 'json'
+    },{
+      name: 'Mon Calamari Shipyards',
+      location: 'Mon Cala',
+      currency: 'Calamari Flan',
+      symbol: 'CFL',
+      report_id: 4738,
+      format: 'csv'
+    },{
+      name: 'Creed Forge',
+      location: 'REDACTED',
+      currency: 'Republic Credits',
+      symbol: 'RCR',
+      report_id: 3745,
+      format: 'xml'
+    }].to_json)
   end
 
-  get "/v1/next" do
+  get 'report/:report_id' do |report_id|
   	protect!
-  	user.counter +=1
-  	user.save
-  	json(to_json_api(user))
+    return kamino if report_id == 7426
+    return mon_cal if report_id == 4738
+    return creed if report_id == 3745
+    halt 404, "'Who is this? Whats your operating number?' (Not Found)\n"
   end
 
-  put "/v1/next" do
-  	protect!
-  	user.counter = params[:current] || 1
-  	user.save
-  	json(to_json_api(user))
-  end
 
   private
-
-  def to_json_api(resource)
-  	{
-  	  type: resource.class.to_s.downcase,
-  	  id: resource.id,
-  	  attributes: resource.public_attributes
-  	}
-  end
 
   def set_token
   	JWT.encode({user_id: @user.id}, SECRET, 'HS256')

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Counter</title>
+  <title>Challenge API</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
@@ -10,66 +10,9 @@
 </head>
 <body>
   <div data-controller="counter">
-	  <div>Counter</div>
+	  <div>Challenge API</div>
 	  <br>
-	  <div id='register'>
-	    <br>
-	    <form
-	      method='post'
-	      action="/register"
-	      data-target="counter.registerForm"
-	      data-remote="true"
-	      data-controller='counter'
-	      data-action="submit->counter#register"
-	    >
-	      <label for="email">Email:</label><br>
-	      <input type="text" id="register-email" name="email" required><br>
-	      <label for="password">Password:</label><br>
-	      <input type="password" id="register-password" name="password" required><br>
-	      <input type="submit" value="Register">
-	      <a href='#' data-action="click->counter#showLogin">Login</a>
-	    </form> 
-	  </div>
-	  <div class='hidden' id='login'>
-	    <br>
-	    <form
-	      method='post'
-	      action="/login"
-	      data-target="counter.loginForm"
-	      data-remote="true"
-	      data-controller='counter'
-	      data-action="submit->counter#login"
-	    >
-	      <label for="email">Email:</label><br>
-	      <input type="text" id="login-email" name="email"><br>
-	      <label for="password">Password:</label><br>
-	      <input type="password" id="login-password" name="password"><br>
-	      <input type="submit" value="Login">
-	      <a href='#' data-action="click->counter#showRegister">Register</a>
-	    </form> 
-	  </div>
-	  <div id="counter" class="hidden">
-	    <span>current:</span>
-	    <span id="current-span"><%= @user.try(:counter) %></span><br>
-	    <button data-action='click->counter#getNext'>Next</button><br>
-	    <form
-	      method='put'
-	      action="/v1/next"
-	      data-target="counter.loginForm"
-	      data-remote="true"
-	      data-controller='counter'
-	      data-action="submit->counter#setCurrent"
-	    >
-	      <input
-	      id="current"
-	      name="current"
-	      value="<%= @user.try(:counter) %>"
-	      style="width:40px"
-	      type="text"
-	      >
-	      <input type="submit" value="Set current">
-	    </form> 
-	    <a id='get-current' href="#" class='hidden' data-action='click->counter#getCurrent'>get current</a>
+	  <div id="body" class="hidden">
 	  </div>
   </div>
 </body>

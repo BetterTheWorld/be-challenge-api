@@ -10,7 +10,7 @@ gem 'bcrypt'
 gem 'jwt'
 gem 'sassc'
 gem "byebug"
-
+gem 'faker'
 
 group :production do
   # Use Postgresql for ActiveRecord
