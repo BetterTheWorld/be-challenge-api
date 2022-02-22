@@ -11,6 +11,7 @@ gem 'jwt'
 gem 'sassc'
 gem "byebug"
 gem 'faker'
+gem 'nokogiri'
 
 group :production do
   # Use Postgresql for ActiveRecord

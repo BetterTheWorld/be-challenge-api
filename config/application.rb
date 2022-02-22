@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/base'
 require 'sinatra/json'
 require 'sinatra/activerecord'
 require 'byebug'

@@ -1,6 +1,6 @@
 require_relative 'config/application'
 
-class ChallengeApi < Sinatra::Base
+class Counter < Sinatra::Base
   SECRET = ENV['SECRET'] || "secret"
 
   before do
@@ -25,41 +25,57 @@ class ChallengeApi < Sinatra::Base
   end
 
   
-  get 'reports' do
+  get '/reports' do
     return json([{
       name: 'Kamino Human Resources, LTD',
-      location: 'Kamino'
+      location: 'Kamino',
       currency: 'Republic Credits',
       symbol: 'RCR',
       report_id: 7426,
-      format: 'json'
+      format: 'json',
+      referrence_id: "The id you submited to identify your transaction is under 'account', as 'referrence_id'"
     },{
       name: 'Mon Calamari Shipyards',
       location: 'Mon Cala',
       currency: 'Calamari Flan',
       symbol: 'CFL',
       report_id: 4738,
-      format: 'csv'
+      format: 'csv',
+      referrence_id: "The id you submited to identify your transaction is as 'account_external_ref'"
     },{
       name: 'Creed Forge',
       location: 'REDACTED',
       currency: 'Republic Credits',
       symbol: 'RCR',
       report_id: 3745,
-      format: 'xml'
-    }].to_json)
+      format: 'xml',
+      referrence_id: "The id you submited to identify your transaction is as 'client_external_id'"
+    }])
   end
 
-  get 'report/:report_id' do |report_id|
-  	protect!
-    return kamino if report_id == 7426
-    return mon_cal if report_id == 4738
-    return creed if report_id == 3745
+  get '/reports/:report_id' do |report_id|
+  	# protect!
+    return kamino if report_id == '7426'
+    return mon_cal if report_id == '4738'
+    return creed if report_id == '3745'
     halt 404, "'Who is this? Whats your operating number?' (Not Found)\n"
   end
 
 
   private
+
+  def kamino
+    json({name: 'kamino', foo: 'bar'})
+  end
+
+  def mon_cal
+    File.open('./lib/mon_cala.csv').read
+  end
+
+  def creed
+    creed = File.open("./lib/creed.xml") { |f| Nokogiri::XML(f) }
+    creed.to_xml
+  end
 
   def set_token
   	JWT.encode({user_id: @user.id}, SECRET, 'HS256')
