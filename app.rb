@@ -26,6 +26,7 @@ class App < Sinatra::Base
 
   
   get '/reports' do
+    protect!
     return json([{
       name: 'Kamino Human Resources, LTD',
       location: 'Kamino',
@@ -55,7 +56,7 @@ class App < Sinatra::Base
   end
 
   get '/reports/:report_id' do |report_id|
-  	# protect!
+    protect!
     return kamino if report_id == '7426'
     return mon_cala if report_id == '4738'
     return creed if report_id == '3745'
