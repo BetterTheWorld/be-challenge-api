@@ -146,3 +146,6 @@ class TransactionGenerator
     Time.at(time.to_i + seconds) 
   end
 end
+TransactionGenerator.generate_report('kamino', :json)
+TransactionGenerator.generate_report('mon_cala', :csv)
+TransactionGenerator.generate_report('creed', :xml)

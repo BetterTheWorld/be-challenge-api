@@ -1,353 +1,380 @@
 <?xml version="1.0"?>
 <report>
   <transaction>
-    <id>ad8b94a7-8522-417c-acce-669231175c87</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>4921308</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>ba011c58d88bfb6e0496dab52177dbdc</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>2251c0db-49c7-40b7-940c-76d04e2d9b5b</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>2043807</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>2a7a6e742b98aea946a540cd6035cd6d</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>93faedf5-3197-41bc-97b6-3af6a28337a3</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>2842671</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>7240f1daeea89e041c96df1969a6fd5d</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>377d8ac6-c019-487b-8f4d-f4e5561eb725</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>4189603</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>f96c69d8528491e63bad6833b13f59f3</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>d4912675-8f1c-43e3-be33-ddd65324cd90</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>3305912</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>6ab6c9c3240945faf9eb5214c8f503df</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>28a0a3b4-ac87-49fc-9e09-2c75dbb5022b</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>4588357</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>12b09b45457cd007e7a6f361560f2657</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>a6475f7b-045c-4efd-b05c-237b4d053e70</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>4535279</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>889d24d5c84425374668081a51d4e5fa</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>8e58a21e-1c34-4757-b5c9-d4d80ea8db11</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>2850292</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>7f5a0fe3e75ca4aba94c6b3f50117b55</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>1b6315d9-c66d-4f5f-a317-b10352f4b7bf</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>2624707</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>ea481657ed03668678460e569164e578</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>f0977e75-87f0-46a6-a9fb-10b6e27ca4fd</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>8251361</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>f1d0930896413a0f38fc4d969debb115</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>23f57b6c-a5ca-441a-bd99-5f4f95c7db79</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>7729447</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>d676694bc79ba613a7062e544c94d026</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>287dd76a-61e8-4d88-b0d9-bb6c48ecc2e6</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>8661294</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>39c86a7106b19bab9896a62edf8de4a6</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>d868ad11-03eb-4b5c-901a-d9b568e4584c</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>8641748</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>cc551d47e1ab0b0941ad6b5e1f0ca90e</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>49344410-a798-482b-8bfc-3bb8c37fd84c</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>5932698</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>b0b8b19ae57fd7b1801c982113368a93</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>ec83b749-da58-4849-b0c4-f3e7a2dc4fcc</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at/>
-    <value>73008</value>
-    <status>pending</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>00523a1408d5cc73843af2d91b12993d</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>0542205b-912d-47b9-967a-26ccfab34cdb</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>909575</value>
+    <id>4af3ea65-cea5-4a5f-a3ba-75d40732bbab</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>1356593</value>
     <status>paid</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>495ebbf9f0a0391cae67e1d4f397112e</client_id>
+    <client_id>f56cfba875ac873b9b965ffb36f076f1</client_id>
+    <client_external_id>259ef8a02436c69abb77127f7804b754</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>
   <transaction>
-    <id>0542205b-912d-47b9-967a-26ccfab34cdb</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>719029</value>
+    <id>3504508d-831f-4506-9fc3-3c6c91f70b6a</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>6264496</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>386224b43724c0d7e7f94dcbeae8508f</client_id>
+    <client_external_id>bc14364b03d694c8aee1ebe877b8bfa2</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>dad5c3e4-6559-48ff-96de-da53e311ba19</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>2089373</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>e76c3efa85846987fede3966cb1997df</client_id>
+    <client_external_id>528172210be01306500e07c497c70528</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>3afe7fcf-8a47-4dd4-8ad1-6da24db9249a</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7841394</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>d8135a6d2374601d015a79adb36c7223</client_id>
+    <client_external_id>1a8803156cca58e6b9d902ebc2e1f97a</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>7f9ca088-583c-4409-94e9-c1f9a77e4f3f</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>6904483</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>9232900ac823114b0a67898be4e6f85a</client_id>
+    <client_external_id>dba3ef8d3453d67bd9da1b65ef7c2707</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>6e814fad-e5e7-46c3-b8bb-9723d02310c6</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>1705202</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>6969b8fedf26fba1ab050f0bf45b52b7</client_id>
+    <client_external_id>422087f82fc40ee53672e8db57868188</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>95d11fbd-2ec5-4a36-8875-2bd2a88106dc</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>9679308</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>ede5ddd76bae39de03b6a90c5e3c1192</client_id>
+    <client_external_id>457a2103ca4f0fdc19934b50a6956675</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>ff3ce2d2-713d-4ab1-ae2d-ab561b29a346</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7598041</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>2e994b339d0343a0948b962f536bcb68</client_id>
+    <client_external_id>600e9a017e38050d47abda131e7ee026</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>768d66c6-f63b-4135-aa8b-dde0133a177b</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>2731171</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>51604386c8f372178657adebcd90c517</client_id>
+    <client_external_id>6e20d4eb7a19859b6d66dada5fa0a928</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>1e4f2c8e-50c6-47bc-aa79-b596f0521cdd</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7219335</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>90697795fadb70d58bbbcb9d883c7ad8</client_id>
+    <client_external_id>9741a448650d1d3e4e0f8f9e362cdc9b</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>3831b928-7437-4852-9eea-cf1eb483574e</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>8320820</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>62c7cc2270f3a22bc4e9d3afd7606472</client_id>
+    <client_external_id>27647976fe558b7ea4bcf2798e7f36a5</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>78617960-b01d-45f1-8208-d0b982f8530c</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>5515714</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>9a424351bb00c771d8ae22f59c19e3e6</client_id>
+    <client_external_id>d4bc7e7c6614df1e3aaa015762d30545</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>ec07eeba-a299-48b1-aca3-2b7a9e45384b</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7897971</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>77658c3a177bff66df2275fd7d87a3ee</client_id>
+    <client_external_id>cb4740a6678a18e59f3116f5ad5a33a5</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>762cdc90-676f-4293-ab8d-9febe3f65e2d</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7873018</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>1ba3ee5585672543f6bb615f4e58b559</client_id>
+    <client_external_id>fc82f9238228c6f1f5e5b506d9b3f7a5</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>bdb9c573-a11b-4a2d-a03c-c031dc6d85e4</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>2792932</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>a3f4c177313d35b82b1b5e1b7398be3f</client_id>
+    <client_external_id>78ca38bafbe4069bfa3caee08e393938</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>914b6545-e5d0-4ed8-9e60-1a60c3e99cb6</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>9818148</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>ee0383998739137a3728ec5bc0ebc6f5</client_id>
+    <client_external_id>a883030426fa499a7e2859b9b840aa89</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>cf7b622f-12c6-4030-bf13-22278c2aa870</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>8101819</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>044ab0a6f69f47f165bf4447469418a2</client_id>
+    <client_external_id>5506c0b521cc41891d5e77c9b20fc388</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>eb407d5d-2c20-4f2e-b693-3c1507da6334</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>5805661</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>2b98cde08bd75bb16a4b47fb155a4418</client_id>
+    <client_external_id>534c9a8e506abaf579798990f12fb81c</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>53e1d2b5-0118-4336-9415-af0d2c465f47</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>1448802</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>f046e8a86b55e4ff6305f42e1db7ee71</client_id>
+    <client_external_id>8622e49c53429b3e06030efd41b03101</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>9d4e8b8d-793f-4a61-af3c-9d2b92386acf</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>3903661</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>37d8d64e611ab32b8b14f385f2bfbe05</client_id>
+    <client_external_id>bd0127f910b00eb9c487e864245b4790</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>46efbeea-0be8-4a8b-9d44-96b317241af5</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>1477948</value>
+    <status>paid</status>
+    <manifest>REDACTED</manifest>
+    <shipping>Curbside pickup</shipping>
+    <client_id>4c3818ce5de261aff8d4af6f9086e2e1</client_id>
+    <client_external_id>28dc69bdb8928faa952be1f413f82c02</client_external_id>
+    <client_name>REDACTED</client_name>
+    <client_contact>REDACTED</client_contact>
+  </transaction>
+  <transaction>
+    <id>46efbeea-0be8-4a8b-9d44-96b317241af5</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>959785</value>
     <status>partial_refund</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>495ebbf9f0a0391cae67e1d4f397112e</client_id>
+    <client_id>4c3818ce5de261aff8d4af6f9086e2e1</client_id>
+    <client_external_id>28dc69bdb8928faa952be1f413f82c02</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>
   <transaction>
-    <id>40a2da63-690d-479a-b6c1-57b9fcafc280</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>6288504</value>
+    <id>bc1fdaf8-a8db-467d-abd8-1de9087c44d8</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7266744</value>
     <status>paid</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>91683545d7886bd89f066871bd9bcc9a</client_id>
+    <client_id>eb941d7b6e2a4889c9bc535dc279413a</client_id>
+    <client_external_id>3be775cb2bc8509adb4d88a1636528d6</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>
   <transaction>
-    <id>be0a9beb-3f82-4de0-9f41-ebfaa4fd1542</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>8275909</value>
+    <id>9df64e55-c8d3-48c7-94e6-a3ffb4559165</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>5147362</value>
     <status>paid</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>53ad2231f81a7c3111b3278d0dd1abe9</client_id>
+    <client_id>76efad46ee08a42be848b132d3eabd1b</client_id>
+    <client_external_id>2f1e6ff25c609afd4e0a7eb02e95c92c</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>
   <transaction>
-    <id>0f1de867-6147-44a3-940c-cda505b7ae34</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>7924714</value>
+    <id>f6436345-9570-4825-8556-3cc8d5a4324f</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>7558841</value>
     <status>paid</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>4fbb44e472c05fd2006dd4e68d6b9235</client_id>
+    <client_id>8070b0a477d6658dba8d61cc2b922a3d</client_id>
+    <client_external_id>6e078895b69bf0f6fc42c21f8f154945</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>
   <transaction>
-    <id>2bad9b9f-66a4-4d62-b90c-29f470a49953</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>7908281</value>
+    <id>734f2ebf-73b0-409d-8b9a-b50270659312</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>2815926</value>
     <status>paid</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>5a5d77e977193c83c16e709200a8b8f1</client_id>
+    <client_id>a268b842abab789dd6bf6ce8b2c47e58</client_id>
+    <client_external_id>906fe9fc7cdd089fcb4e60464b671870</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>
   <transaction>
-    <id>94c00ae1-452d-4512-a75f-4e96cf313f16</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>9924699</value>
+    <id>36fd3cbe-7dfe-493a-a8cf-697247fa7a96</id>
+    <created_at>2022-02-21 15:21:53 -0500</created_at>
+    <placed_at>2022-02-21 17:14:18 -0500</placed_at>
+    <paid_at>2022-02-21 17:14:18 -0500</paid_at>
+    <value>928091</value>
     <status>paid</status>
     <manifest>REDACTED</manifest>
     <shipping>Curbside pickup</shipping>
-    <client_id>57e5913f23f1d238f53a0da074629948</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>77cc6b3e-11ab-4e8e-b28f-1062989b1100</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>786454</value>
-    <status>paid</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>e2cb8401fc097b5f92174ce2a4223b03</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>a8c998c1-40f1-43d3-a0f0-fbe2ba133b9a</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>1207117</value>
-    <status>paid</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>dfed2db6b1f81e4be62fcb6d457f6cfc</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>31d524cf-7cfa-4082-8e7f-e51cf75e5a74</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>6287297</value>
-    <status>paid</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>bc482e2172e5acb716dea51604a66eaa</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>7f74fed1-b313-4b92-8647-200473dd055c</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>7201462</value>
-    <status>paid</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>354ab4635dafa330709421f2fd0ae38a</client_id>
-    <client_name>REDACTED</client_name>
-    <client_contact>REDACTED</client_contact>
-  </transaction>
-  <transaction>
-    <id>fda52bf5-7aba-4298-beae-a1c9a4e1c08d</id>
-    <created_at>2022-02-20 16:24:06 -0500</created_at>
-    <placed_at>2022-02-20 17:12:00 -0500</placed_at>
-    <paid_at>2022-02-20 17:12:00 -0500</paid_at>
-    <value>6866249</value>
-    <status>paid</status>
-    <manifest>REDACTED</manifest>
-    <shipping>Curbside pickup</shipping>
-    <client_id>21764700a19546f0f1a25a66d1336221</client_id>
+    <client_id>d5e9f1152e582848bfe4bc1c6f6d6e84</client_id>
+    <client_external_id>51c7163fc526b5237ef001457d183244</client_external_id>
     <client_name>REDACTED</client_name>
     <client_contact>REDACTED</client_contact>
   </transaction>

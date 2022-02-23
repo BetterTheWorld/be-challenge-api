@@ -4,7 +4,6 @@ class User < ActiveRecord::Base
 
   PRIVATE_ATTRIBUTES = %w(id password_digest)
   
-  before_create :set_defaults
   validates :email, uniqueness: true, presence: true
 
 
@@ -25,7 +24,4 @@ class User < ActiveRecord::Base
 
   private
 
-  def set_defaults
-  	self.counter ||= 1 
-  end
 end

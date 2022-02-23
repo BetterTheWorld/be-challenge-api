@@ -1,6 +1,6 @@
 require_relative 'config/application'
 
-class Counter < Sinatra::Base
+class App < Sinatra::Base
   SECRET = ENV['SECRET'] || "secret"
 
   before do
@@ -41,7 +41,8 @@ class Counter < Sinatra::Base
       symbol: 'CFL',
       report_id: 4738,
       format: 'csv',
-      referrence_id: "The id you submited to identify your transaction is as 'account_external_ref'"
+      referrence_id: "The id you submited to identify your transaction is as 'account_external_ref'",
+      note: 'Value is not in full CFL'
     },{
       name: 'Creed Forge',
       location: 'REDACTED',
@@ -56,7 +57,7 @@ class Counter < Sinatra::Base
   get '/reports/:report_id' do |report_id|
   	# protect!
     return kamino if report_id == '7426'
-    return mon_cal if report_id == '4738'
+    return mon_cala if report_id == '4738'
     return creed if report_id == '3745'
     halt 404, "'Who is this? Whats your operating number?' (Not Found)\n"
   end
@@ -68,7 +69,7 @@ class Counter < Sinatra::Base
     json({name: 'kamino', foo: 'bar'})
   end
 
-  def mon_cal
+  def mon_cala
     File.open('./lib/mon_cala.csv').read
   end
 

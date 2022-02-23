@@ -1,7 +1,7 @@
 (() => {
   const application = Stimulus.Application.start()
 
-  application.register("counter", class extends Stimulus.Controller {
+  application.register("app", class extends Stimulus.Controller {
     static targets = ['registerForm', 'loginForm']
     register(eve){
       eve.preventDefault();
@@ -85,9 +85,9 @@
         return response.json()
       })
       .then((data) => {
-        document.getElementById('current').value = data.attributes.counter
-        document.getElementById('current-span').innerText = data.attributes.counter
-        document.getElementById('counter').classList.remove('hidden')
+        document.getElementById('current').value = data.attributes.app
+        document.getElementById('current-span').innerText = data.attributes.app
+        document.getElementById('app').classList.remove('hidden')
       })
       .catch((error) => {
         window.alert('An error ocurred')
@@ -105,8 +105,8 @@
         return response.json()
       })
       .then((data) => {
-        document.getElementById('current').value = data.attributes.counter
-        document.getElementById('current-span').innerText = data.attributes.counter
+        document.getElementById('current').value = data.attributes.app
+        document.getElementById('current-span').innerText = data.attributes.app
       })
       .catch((error) => {
         window.alert('An error ocurred')
@@ -126,8 +126,8 @@
         return response.json()
       })
       .then((data) => {
-        document.getElementById('current').value = data.attributes.counter
-        document.getElementById('current-span').innerText = data.attributes.counter
+        document.getElementById('current').value = data.attributes.app
+        document.getElementById('current-span').innerText = data.attributes.app
       })
       .catch((error) => {
         window.alert('An error ocurred')

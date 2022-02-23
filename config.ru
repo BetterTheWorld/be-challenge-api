@@ -1,2 +1,2 @@
-require "./counter"
-run Counter
+require "./app"
+run App
