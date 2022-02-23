@@ -66,7 +66,7 @@ class App < Sinatra::Base
   private
 
   def kamino
-    json({name: 'kamino', foo: 'bar'})
+    json(JSON.parse(File.open('./lib/kamino.json').read))
   end
 
   def mon_cala
