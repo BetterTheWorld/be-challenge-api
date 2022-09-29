@@ -14,10 +14,10 @@
 	  <br>
     <p>The Galactic Comerce Corp facilitates connections between vendors and their clients, offering an seamless integration layer between the two to trade referrals, transactions reports, and much more!</p>
     <h4>Documentation:</h4>
-    <p><b>Registring</b>: use POST `/register` to create a user. The endpoint requires an email and a password as parameters. The endpoint will return a Jason Web Token as a response. Use the `HTTP_AUTHORIZATION` authorization header to send the token as means of authentications</p>
-    <p><b>Login In</b>: use POST `/login` to create log in. The endpoint requires an email and a password as parameters. The endpoint will return a Jason Web Token as a response. Use the `HTTP_AUTHORIZATION` authorization header to send the token as means of authentications</p>
-    <p><b>Reports</b>: use GET `/reports` to get a list of reports available to your user. This endpoitn requieres no parameters and returns JSON format. Requires authentication.</p>
-    <p><b>Report</b>: use GET `/reports/:report_id` to retrieve a specific report, where :report_id is the ID ( 4 digit Integer) of one of the reports listed from the `/reports` endpoint. The enpoint will return a report in the format as it was recieved by Galactic Commerce Corp. Format and content might vary from report to report.</p>
+    <p><b>Registering</b>: use POST `/register` to create a user. The endpoint requires an email and a password as parameters. The endpoint will return a Jason Web Token as a response. Use the `HTTP_AUTHORIZATION` authorization header to send the token as means of authentication</p>
+    <p><b>Login In</b>: use POST `/login` to log in. The endpoint requires an email and a password as parameters. The endpoint will return a Jason Web Token as a response. Use the `HTTP_AUTHORIZATION` authorization header to send the token as means of authentications</p>
+    <p><b>Reports</b>: use GET `/reports` to get a list of reports available to your user. This endpoint requieres no parameters and returns JSON format. Requires authentication.</p>
+    <p><b>Report</b>: use GET `/reports/:report_id` to retrieve a specific report, where :report_id is the ID ( 4 digit Integer) of one of the reports listed from the `/reports` endpoint. The enpoint will return a report in the format as it was recieved by Galactic Commerce Corp. Format and content might vary from report to report. Requires authentication.</p>
   </div>
 </body>
 </html>
