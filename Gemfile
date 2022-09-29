@@ -12,6 +12,7 @@ gem 'sassc'
 gem "byebug"
 gem 'faker'
 gem 'nokogiri'
+gem 'webrick'
 
 group :production do
   # Use Postgresql for ActiveRecord
