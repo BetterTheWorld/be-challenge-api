@@ -12,13 +12,4 @@ gem 'sassc'
 gem "byebug"
 gem 'faker'
 gem 'nokogiri'
-
-group :production do
-  # Use Postgresql for ActiveRecord
-  gem 'pg'
-end
-
-group :development, :test do
-  # Use SQLite for ActiveRecord
-  gem 'sqlite3'
-end
+gem 'pg'
