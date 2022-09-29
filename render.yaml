@@ -14,3 +14,7 @@ services:
         fromDatabase:
           name: bechallengeapi
           property: connectionString
+      - key: RAILS_ENV
+        value: production
+      - key: ENV
+        value: production
